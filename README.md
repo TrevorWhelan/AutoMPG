@@ -1,11 +1,11 @@
 # AutoMPG
-Dataset columns:  
-1. mpg: continuous
-2. cylinders: multi-valued discrete
-3. displacement: continuous
-4. horsepower: continuous
-5. weight: continuous
-6. acceleration: continuous
-7. model year: multi-valued discrete
-8. origin: multi-valued discrete
-9. car name: string (unique for each instance)
+Attributes:
+mpg . . . . . .miles per gallons (continuous)
+cylinders . . .number of cylinders (discrete multi-valued)
+acceleration. .rate of change of velocity (continuous)
+displacement. .distance between initial and final (continuous)
+horsepower. . .unit measurement of power (continuous)
+weight. . . . .overall weight (continuous)
+model year. . .production year (discrete multi-valued)
+orgin . . . . .reagion (discrete multi-valued)
+name. . . . . .name of automobile (unique)
